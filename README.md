@@ -1,17 +1,4 @@
-super-trunfo/
-├── README.md          # Documentação do projeto
-├── src/
-│   ├── index.js       # Ponto de entrada principal
-│   ├── game.js        # Lógica principal do jogo
-│   ├── deck.js        # Gerenciamento do baralho
-│   ├── player.js      # Lógica do jogador
-│   ├── card.js       # Classe/modelo das cartas
-│   └── utils.js      # Funções auxiliares
-├── test/             # Testes unitários
-│   └── game.test.js
-└── assets/
-    ├── cards/        # Imagens das cartas (opcional)
-    └── styles.css    # Estilos (se for web)class Card {
+ (se for web)class Card {
   constructor(name, attributes) {
     this.name = name;
     this.attributes = attributes; // Ex: {velocidade: 5, potencia: 3, peso: 2}
